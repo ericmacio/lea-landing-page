@@ -97,3 +97,5 @@ Excellent ! La page est complète et fonctionnelle. Voici un récapitulatif de c
 - Je souhaiterais maintenant intégrer Google analytics sur ma page web afin de pouvoir analyser son trafic. Peux-tu me décrire ce que celà comporte comme changement et les stocker dans le fichier analyse/GA.md
 - Ok. Le compte et le flux https://leamacio.com ont été créé sur Google Analytics. Le document GA.md a été mis à jour avec le bon ID de la propriété. Merci d'implémenter maintenant le nécessaire et notamment l'item 3 permettant le tracking des évènements
 - La couleur de font du bouton "Refuser" ne permet pas une lecture satisfaisante sur le fond clair. Merci d'adapter sa couleur en fonction
+- Ok très bien. Merci maintenant de créer le fichier sitemap pour le référencement Google
+- MErci aussi de créer le fichier robots.txt
