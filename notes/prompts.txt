@@ -1,4 +1,4 @@
-- Merci d'analyser les documents fourni afin de réaliser une page HTML simple correspondant très précisément aux informations fournies. Celle-ci devant être considérées comme cahier des charges. Créer ensuite un      document de design permettant de créer cette page HTML et de stocker celui-ci sous analyse/DESIGN.md
+- Merci d'analyser les documents fourni afin de réaliser une page HTML simple correspondant très précisément aux informations fournies. Celle-ci devant être considérées comme cahier des charges. Créer ensuite un document de design permettant de créer cette page HTML et de stocker celui-ci sous analyse/DESIGN.md
 - Merci maintenant de créer les user stories permettant l'implémentation de la page et de les stocker sous le fichier analyse/US.md
 - Implémenter les Epics 1 et 2
 - Le texte "Lea Macioszczyk Freelance CRO" du header ne doit pas être en italique et utiliser une taille de police 21px
@@ -90,3 +90,7 @@ Excellent ! La page est complète et fonctionnelle. Voici un récapitulatif de c
   - Performance : loading="lazy" et dimensions sur l'image
   - Maintenabilité : classes utilitaires, suppression des styles inline et du CSS dupliqué
   - Compatibilité : préfixes cross-browser, touch targets, prefers-reduced-motion, forced-colors, 3 breakpoints responsive
+
+--------------------------------
+
+- la page index.html a été créée suivant les documents d'analyse DESIGN.md, US.md et REVIEW.md. Celle-ci est désormais entièrement opérationnelle. LEes actions réalisées sont décrites dans le fichier docs/status.txt. Je souhaite que l'on implémente maintenant les items 5 et 6 tels que décrits dans le document REVIEW.md 

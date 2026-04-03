@@ -84,9 +84,9 @@ Aucune balise Open Graph (`og:title`, `og:description`, `og:image`) ni Twitter C
 ```html
 <meta property="og:title" content="Léa Macioszczyk — Freelance CRO">
 <meta property="og:description" content="J'aide les e-commerces et les sites vitrines à transformer leur trafic en résultats mesurables.">
-<meta property="og:image" content="https://votredomaine.fr/docs/lea.png">
+<meta property="og:image" content="https://leamacio.com/lea.png">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://votredomaine.fr/">
+<meta property="og:url" content="https://leamacio.com/">
 <meta name="twitter:card" content="summary_large_image">
 ```
 
@@ -99,7 +99,7 @@ Sans URL canonique, les moteurs de recherche peuvent indexer plusieurs versions 
 
 **Recommandation :**
 ```html
-<link rel="canonical" href="https://votredomaine.fr/">
+<link rel="canonical" href="https://leamacio.com/">
 ```
 
 ---
