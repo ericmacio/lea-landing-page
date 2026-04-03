@@ -1892,22 +1892,22 @@
     </div>
 
     <div class="contact__form-wrapper">
-      <form class="contact__form">
+      <form class="contact__form" name="contact" method="POST" data-netlify="true">
         <div>
           <label class="contact__field-label" for="contact-nom">Prénom / Nom<span>*</span></label>
-          <input id="contact-nom" type="text" class="contact__input" placeholder="Marie Dupont" required>
+          <input id="contact-nom" name="nom" type="text" class="contact__input" placeholder="Marie Dupont" required>
         </div>
         <div>
           <label class="contact__field-label" for="contact-email">Email<span>*</span></label>
-          <input id="contact-email" type="email" class="contact__input" placeholder="marie@pro.com" required>
+          <input id="contact-email" name="email" type="email" class="contact__input" placeholder="marie@pro.com" required>
         </div>
         <div>
           <label class="contact__field-label" for="contact-url">URL de votre site<span>*</span></label>
-          <input id="contact-url" type="url" class="contact__input" placeholder="https://monsite.fr" required>
+          <input id="contact-url" name="url" type="url" class="contact__input" placeholder="https://monsite.fr" required>
         </div>
         <div>
           <label class="contact__field-label" for="contact-interet">Vous êtes intéressé par<span>*</span></label>
-          <select id="contact-interet" class="contact__select" required>
+          <select id="contact-interet" name="interet" class="contact__select" required>
             <option value="" disabled selected>Sélectionner</option>
             <option value="audit">Audit opérationnel</option>
             <option value="accompagnement">Accompagnement CRO</option>
@@ -1917,7 +1917,7 @@
         </div>
         <div>
           <label class="contact__field-label" for="contact-situation">Votre situation<span>*</span></label>
-          <textarea id="contact-situation" class="contact__textarea" placeholder="Quelques mots sur votre site, votre trafic, ce qui bloque...." required></textarea>
+          <textarea id="contact-situation" name="situation" class="contact__textarea" placeholder="Quelques mots sur votre site, votre trafic, ce qui bloque...." required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">
           <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"/><path d="m22 2-7 20-4-9-9-4z"/></svg>

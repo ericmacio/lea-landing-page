@@ -99,3 +99,22 @@ Excellent ! La page est complète et fonctionnelle. Voici un récapitulatif de c
 - La couleur de font du bouton "Refuser" ne permet pas une lecture satisfaisante sur le fond clair. Merci d'adapter sa couleur en fonction
 - Ok très bien. Merci maintenant de créer le fichier sitemap pour le référencement Google
 - MErci aussi de créer le fichier robots.txt
+- Je souhaiterais maintenant optimiser le référencement de mon site par Google correspondant à mon activité. Je pense que les recherches par mots clefs du genre "optimisation de site web" "CRO" "conversion" sont des exemples probants mais complète avec ce qu'il te semble pertinent. Merci de me proposer des changements permettant cette optimisation et de les stocker dans un fichier analyse/SEO.md
+- Ok le sitemap a été référencé dans Google Search. Le site est aussi maintenant déployé et intégré sur Netlify
+- Merci d'implémenter le point critique #1 du REVIEW.md en utilisant le service proposé par Netlify
+- Désolé. Mais le formulaire envoie-t-il maintenant vraiment une email ? si oui à quelle adresse ?
+
+-------------------
+Non, le formulaire ne vous envoie pas d'email automatiquement. Netlify Forms stocke les soumissions dans votre dashboard Netlify (Forms > contact), mais n'envoie aucun email par défaut.
+
+  Pour recevoir un email à chaque soumission, il faut configurer une notification dans Netlify :
+
+  1. Aller dans Site settings > Forms > Form notifications
+  2. Cliquer sur Add notification > Email notification
+  3. Renseigner l'adresse email de réception
+  4. Sélectionner le formulaire "contact"
+
+  C'est une configuration côté Netlify (pas dans le code)
+  -----------------
+
+  - Implémenter maintenant les optimisations suggérées dans le doc SEO.md
