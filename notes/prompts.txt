@@ -93,4 +93,6 @@ Excellent ! La page est complète et fonctionnelle. Voici un récapitulatif de c
 
 --------------------------------
 
-- la page index.html a été créée suivant les documents d'analyse DESIGN.md, US.md et REVIEW.md. Celle-ci est désormais entièrement opérationnelle. LEes actions réalisées sont décrites dans le fichier docs/status.txt. Je souhaite que l'on implémente maintenant les items 5 et 6 tels que décrits dans le document REVIEW.md 
+- la page index.html a été créée suivant les documents d'analyse DESIGN.md, US.md et REVIEW.md. Celle-ci est désormais entièrement opérationnelle. LEes actions réalisées sont décrites dans le fichier docs/status.txt. Je souhaite que l'on implémente maintenant les items 5 et 6 tels que décrits dans le document REVIEW.md
+- Je souhaiterais maintenant intégrer Google analytics sur ma page web afin de pouvoir analyser son trafic. Peux-tu me décrire ce que celà comporte comme changement et les stocker dans le fichier analyse/GA.md
+- Ok. Le compte et le flux https://leamacio.com ont été créé sur Google Analytics. Le document GA.md a été mis à jour avec le bon ID de la propriété. Merci d'implémenter maintenant le nécessaire et notamment l'item 3 permettant le tracking des évènements
