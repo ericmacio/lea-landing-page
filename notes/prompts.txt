@@ -169,3 +169,4 @@ C'est une bonne idée. Ajouter une mini photo dans le header est une pratique co
 - Je souhaite rétablir la couleur de fond du bouton "envoyer" du formulaire pour metre cohérent avec les autres boutons. Rétablir le fond cyan clair
 - En fait je souhaite la même couleur de fond que le bouton "diagnostic gratuit" du header
 - Je pense que dans le cas d'un affichage mobile il est aussi possible d'afficher la photo (elle n'apparait que sur un desktop). Serait-il possible de la rajouter ?
+- PArfait. Mettre maintenant le texte "Optimisation du taux de conversion" en non italique
