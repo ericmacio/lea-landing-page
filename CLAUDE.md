@@ -7,9 +7,6 @@ Ce projet a pour but de créer une landing paage présentant une offre de consei
 Cette page doit présenter une Unique Value Proposition (UVP) autour de cette activité. Elle doit permettre de faire connaitre l'acitivité à tous les clients potentiels (PME, TPE, startup) en mettant l'accent sur ce que celà puet leur rapporter en terme de business (par exemple augmentation des ventes).
 Toutes les documentations relatives à la création de la page sont stockés sous le répertoire "docs"
 
-## Contenu et argumentaires
-Le contenu texte de la page est disponible sous docs/texte.txt. Merci de suivre strictement cet argumentaire (messages, pertinence, offre commerciale) san ys apporter la moinide modification
-
 ## Guidelines
 Le répertoire docs contient un ensemble d'image (copyScreen) permettant d'illustrer la mise en forme voulue. Merci de respecter au mieux celle-ci. Une copy exacte du rendu souhaité est disponible via l'url: "https://talented-answers-795492.framer.app/". Merci d'essayer de respecter au mieux celui-ci tout en simplifiant au mieux les aspects techniques (pas de javascript)
 
