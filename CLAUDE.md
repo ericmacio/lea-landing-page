@@ -7,14 +7,11 @@ Ce projet a pour but de créer une landing paage présentant une offre de consei
 Cette page doit présenter une Unique Value Proposition (UVP) autour de cette activité. Elle doit permettre de faire connaitre l'acitivité à tous les clients potentiels (PME, TPE, startup) en mettant l'accent sur ce que celà puet leur rapporter en terme de business (par exemple augmentation des ventes).
 Toutes les documentations relatives à la création de la page sont stockés sous le répertoire "docs"
 
-## Guidelines
-Le répertoire docs contient un ensemble d'image (copyScreen) permettant d'illustrer la mise en forme voulue. Merci de respecter au mieux celle-ci. Une copy exacte du rendu souhaité est disponible via l'url: "https://talented-answers-795492.framer.app/". Merci d'essayer de respecter au mieux celui-ci tout en simplifiant au mieux les aspects techniques (pas de javascript)
-
 ## langage et style
 Cette page doit être rédigé uniquement en français. Merci d'adopter un style permettant d'attirer l'attention mais tout en restant professionnel et respectueux. La page doit être très professionelle, au look moderne et agréable permettant de mettre en évidence tous les points forts de l'offre
 
 ## Format
-Cette page doit se présenter sous la forme d'une page simple au format HTML.
+Cette page doit se présenter sous la forme d'une page simple au format HTML. Eviter si possible l'utilisation de JavaScript
 
 ## Codes couleur
 Merci d'utiliser la palette de couleurs suivante:
@@ -34,3 +31,6 @@ Les éléments principaux (titres) utilisent la police "Instrument Serif". Les a
 
 ## photo
 La photo de la personne proposant cette offre est accessible dans le fichier lea.png
+
+## Status
+la page index.html a été créée suivant les documents d'analyse DESIGN.md, US.md, REVIEW.md, GA.md et SEO.mmd. Celle-ci est désormais entièrement opérationnelle. Elle a aussi été améliorée suivant les recommandations décrite dans analyse/REVIEW-DESIGN.md. CEs fichiers servent de références quand à la struture et l'état de la page actuelle

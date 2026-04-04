@@ -157,10 +157,15 @@ C'est une bonne idée. Ajouter une mini photo dans le header est une pratique co
   Verdict : je recommande. C'est un petit changement à fort impact sur la mémorisation et la confiance. Souhaites-tu que je l'implémente ?
   -----------------
 
-  - Oui merci de l'implémenter
-  - Je trouve que la partie partenariat avec un developpeuur expert n'est pas assez mise en valeur car cela est ppour moi un vrai différentiateur. Que me proposes-tu pour rendre plus évident ce différentiateur ? Merci de compléter le document DESIGN-REVIEW avec tes suggestions
-  - Très bien merci d'implémenter les éléments suggérés
-  - C'est bien j'aime
-  - J'ai oublié de te faire rajouté dans le document REVIEW-DESIGN les modifications apportées pour le rajout de la photo dans le header. Pourrais-tu le faire maintenant ?
-  - Merci de t'assurer du respect des contraintes responsive (Epic 12) afin de garantir la multi compatibilité cross OS et cross browser. Effectuer les changements nécessaires
-  - Il me semble que le la modification du fond cyan n'a pas été appliqué dans la partie frmulaire sur le texte "plus de résultats". Peux-tu vérifier ?
+- Oui merci de l'implémenter
+- Je trouve que la partie partenariat avec un developpeuur expert n'est pas assez mise en valeur car cela est ppour moi un vrai différentiateur. Que me proposes-tu pour rendre plus évident ce différentiateur ? Merci de compléter le document DESIGN-REVIEW avec tes suggestions
+- Très bien merci d'implémenter les éléments suggérés
+- C'est bien j'aime
+- J'ai oublié de te faire rajouté dans le document REVIEW-DESIGN les modifications apportées pour le rajout de la photo dans le header. Pourrais-tu le faire maintenant ?
+- Merci de t'assurer du respect des contraintes responsive (Epic 12) afin de garantir la multi compatibilité cross OS et cross browser. Effectuer les changements nécessaires
+- Il me semble que le la modification du fond cyan n'a pas été appliqué dans la partie frmulaire sur le texte "plus de résultats". Peux-tu vérifier ?
+- Je trouve le titre principale de la première zone un peu petit lorsqu'il est affiché sur un mobile. Est-il possible de l'agrandir ?
+- De même toujours sur la première page la phrase "CRO · E-commerce & site vitrine" est un peu trop discrête (desktop et mobile). Merci de la rendre plus visible
+- Je souhaite rétablir la couleur de fond du bouton "envoyer" du formulaire pour metre cohérent avec les autres boutons. Rétablir le fond cyan clair
+- En fait je souhaite la même couleur de fond que le bouton "diagnostic gratuit" du header
+- Je pense que dans le cas d'un affichage mobile il est aussi possible d'afficher la photo (elle n'apparait que sur un desktop). Serait-il possible de la rajouter ?

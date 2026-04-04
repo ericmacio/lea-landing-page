@@ -471,11 +471,11 @@
 
     .hero__tag {
       font-family: var(--font-body);
-      font-size: 15px;
-      font-weight: 500;
+      font-size: 16px;
+      font-weight: 600;
       letter-spacing: 3px;
       text-transform: uppercase;
-      color: var(--gris-fonce);
+      color: var(--cyan);
       margin-bottom: 32px;
     }
 
@@ -602,13 +602,6 @@
 
     .probleme__text:last-of-type {
       margin-bottom: 0;
-    }
-
-    .probleme__text .underline-cyan {
-      color: var(--noir);
-      text-decoration: underline;
-      text-decoration-color: var(--cyan);
-      text-underline-offset: 3px;
     }
 
     .probleme__cards {
@@ -1086,12 +1079,12 @@
       }
 
       .hero__tag {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 2px;
       }
 
       .hero__title {
-        font-size: 34px;
+        font-size: 38px;
       }
 
       .hero__subtitle {
@@ -1205,7 +1198,8 @@
        ============================================ */
     @media (max-width: 480px) {
       .header__photo {
-        display: none;
+        width: 28px;
+        height: 28px;
       }
 
       .container {
@@ -1213,11 +1207,11 @@
       }
 
       .hero__title {
-        font-size: 28px;
+        font-size: 32px;
       }
 
       .hero__tag {
-        font-size: 11px;
+        font-size: 12px;
       }
 
       .probleme__title {
@@ -1600,6 +1594,20 @@
       align-self: flex-end;
     }
 
+    .contact__form button.btn-primary {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: #00d4ff;
+      color: var(--noir);
+      border-color: #00d4ff;
+    }
+
+    .contact__form button.btn-primary:hover {
+      background-color: #33ddff;
+      border-color: #33ddff;
+    }
+
     /* Contact responsive overrides */
     @media (max-width: 1024px) {
       .contact {
@@ -1785,11 +1793,9 @@
       }
 
       .footer__inner {
-        padding: 0 20px;
+        padding: 20px 20px;
         flex-direction: column;
         height: auto;
-        padding-top: 20px;
-        padding-bottom: 20px;
         gap: 8px;
         text-align: center;
       }
@@ -1847,7 +1853,7 @@
     }
 
     .cookie-banner__text {
-      color: var(--gris-texte);
+      color: var(--gris-clair);
       font-family: var(--font-body);
       font-size: 0.875rem;
       margin: 0;

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed -n '58,/^  <\\\\/style>/p' \"/c/Users/2055392/OneDrive - Cognizant/Documents/Software/CRO-landing-page/lea-version/index.html\")",
+      "Read(//tmp/**)"
+    ]
+  }
+}
