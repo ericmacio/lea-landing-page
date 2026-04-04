@@ -66,6 +66,7 @@
       --gris-clair:    #a3a198;
       --blanc:         #ffffff;
       --cyan:          #00d4ff;
+      --cyan-dark:     #0088a8;
       --cyan-trans:    #45cdff3d;
 
       --font-title: 'Instrument Serif', Georgia, serif;
@@ -246,11 +247,23 @@
     }
 
     .header__logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
       font-family: var(--font-title);
       font-style: normal;
       font-size: 21px;
       color: var(--blanc);
       white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .header__photo {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1.5px solid rgba(0, 212, 255, 0.4);
       flex-shrink: 0;
     }
 
@@ -438,9 +451,22 @@
        HERO SECTION (US-3.1)
        ============================================ */
     .hero {
-      background-color: var(--noir-sec);
-      padding: 64px 0 72px;
+      background:
+        radial-gradient(ellipse 80% 60% at 50% 40%, rgba(0, 212, 255, 0.08) 0%, transparent 70%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.07) 1.2px, transparent 1.2px),
+        var(--noir-sec);
+      background-size: 100% 100%, 40px 40px, 100% 100%;
+      padding: 100px 0 96px;
       text-align: center;
+      min-height: 85vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .hero .container {
+      width: 100%;
     }
 
     .hero__tag {
@@ -455,11 +481,11 @@
 
     .hero__title {
       font-family: var(--font-title);
-      font-size: 64px;
+      font-size: 72px;
       font-weight: 400;
       line-height: 1.15;
       color: var(--blanc);
-      max-width: 800px;
+      max-width: 850px;
       margin: 0 auto 28px;
     }
 
@@ -468,8 +494,24 @@
     }
 
     .hero__title .highlight {
-      color: var(--cyan);
       font-style: normal;
+      background: linear-gradient(90deg, var(--cyan), #45cdff, #00a8cc, var(--cyan));
+      background-size: 300% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      -webkit-animation: shimmer 6s ease-in-out infinite;
+      animation: shimmer 6s ease-in-out infinite;
+    }
+
+    @-webkit-keyframes shimmer {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    @keyframes shimmer {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
     }
 
     .hero__subtitle {
@@ -496,10 +538,35 @@
       color: var(--gris-fonce);
     }
 
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 5%;
+      right: 5%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent 0%, var(--cyan) 30%, var(--cyan) 70%, transparent 100%);
+      opacity: 0.6;
+      box-shadow: 0 0 12px rgba(0, 212, 255, 0.4), 0 0 30px rgba(0, 212, 255, 0.15);
+    }
+
+    .hero .btn-primary {
+      box-shadow: 0 0 20px rgba(0, 212, 255, 0.3),
+                  0 0 60px rgba(0, 212, 255, 0.1);
+      transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.25s ease;
+    }
+
+    .hero .btn-primary:hover {
+      box-shadow: 0 0 30px rgba(0, 212, 255, 0.5),
+                  0 0 80px rgba(0, 212, 255, 0.2);
+      transform: translateY(-2px);
+    }
+
     /* ============================================
        PROBLEM SECTION (US-4.1)
        ============================================ */
     .probleme {
+      --cyan: var(--cyan-dark);
       background-color: #eef2f6;
       padding: 56px 0;
       color: var(--noir);
@@ -640,6 +707,7 @@
        MÉTHODE SECTION (US-6.1)
        ============================================ */
     .methode {
+      --cyan: var(--cyan-dark);
       background-color: #eef2f6;
       padding: 56px 0;
     }
@@ -671,6 +739,57 @@
       line-height: 1.55;
       color: var(--noir-sec);
       margin-bottom: 16px;
+    }
+
+    .methode__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: var(--noir);
+      color: #00d4ff;
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 6px 16px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    .methode__badge svg {
+      width: 14px;
+      height: 14px;
+    }
+
+    .methode__partner {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      background-color: var(--blanc);
+      border-left: 3px solid var(--cyan);
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin-top: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    .methode__partner-icon {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      color: var(--cyan);
+    }
+
+    .methode__partner-text {
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.55;
+      color: var(--noir-sec);
+    }
+
+    .methode__partner-text strong {
+      color: var(--noir);
     }
 
     .methode__steps {
@@ -755,6 +874,7 @@
     }
 
     .offres__card {
+      --cyan: var(--cyan-dark);
       background-color: #eef2f6;
       border-radius: 14px;
       padding: 24px 22px;
@@ -871,10 +991,40 @@
       font-size: 14px;
     }
 
+    .offres__card--partner {
+      border: 1px solid rgba(0, 212, 255, 0.25);
+    }
+
+    .offres__card-partner-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      color: var(--cyan);
+      background-color: rgba(0, 212, 255, 0.08);
+      padding: 4px 12px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .offres__card-partner-badge svg {
+      width: 12px;
+      height: 12px;
+    }
+
     /* ============================================
        RESPONSIVE — TABLETTE (US-12.1)
        ============================================ */
     @media (max-width: 1024px) {
+      .hero {
+        min-height: 75vh;
+        padding: 80px 0 72px;
+      }
+
       .hero__title {
         font-size: 44px;
       }
@@ -932,6 +1082,7 @@
       /* --- Hero --- */
       .hero {
         padding: 48px 0 56px;
+        min-height: 70vh;
       }
 
       .hero__tag {
@@ -1009,6 +1160,16 @@
         gap: 32px;
       }
 
+      .methode__partner {
+        padding: 16px 18px;
+        gap: 12px;
+      }
+
+      .methode__partner-icon {
+        width: 32px;
+        height: 32px;
+      }
+
       .methode__step {
         gap: 16px;
         padding: 20px 0;
@@ -1043,6 +1204,10 @@
        RESPONSIVE — PETIT MOBILE (< 480px)
        ============================================ */
     @media (max-width: 480px) {
+      .header__photo {
+        display: none;
+      }
+
       .container {
         padding: 0 20px;
       }
@@ -1072,6 +1237,26 @@
         font-size: 26px;
       }
 
+      .methode__badge {
+        font-size: 11px;
+        padding: 5px 12px;
+      }
+
+      .methode__partner {
+        flex-direction: column;
+        padding: 14px 16px;
+        gap: 10px;
+      }
+
+      .methode__partner-icon {
+        width: 28px;
+        height: 28px;
+      }
+
+      .methode__partner-text {
+        font-size: 14px;
+      }
+
       .offres__title {
         font-size: 26px;
       }
@@ -1094,6 +1279,10 @@
       .btn {
         min-height: 44px;
         min-width: 44px;
+      }
+
+      .header__logo {
+        min-height: 44px;
       }
 
       .header__nav a {
@@ -1120,6 +1309,19 @@
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
       }
+
+      .hero__title .highlight {
+        animation: none;
+        background: none;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: var(--cyan);
+        background-clip: unset;
+        color: var(--cyan);
+      }
+
+      .hero .btn-primary {
+        box-shadow: none;
+      }
     }
 
     /* High contrast mode support */
@@ -1132,11 +1334,48 @@
       .offres__card-feature--check::before {
         forced-color-adjust: none;
       }
+
+      /* Shimmer : revert to plain text in high contrast */
+      .hero__title .highlight {
+        background: none;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: currentColor;
+        background-clip: unset;
+        color: LinkText;
+      }
+
+      /* Hero separator : use solid border instead of gradient */
+      .hero::after {
+        background: CanvasText;
+        box-shadow: none;
+      }
+
+      /* Partner callout : ensure border is visible */
+      .methode__partner {
+        border: 1px solid CanvasText;
+        box-shadow: none;
+      }
+
+      /* Partner card : ensure border is visible */
+      .offres__card--partner {
+        border: 2px solid LinkText;
+      }
+
+      .offres__card-partner-badge,
+      .methode__badge {
+        border: 1px solid currentColor;
+      }
+
+      /* Header photo : visible border */
+      .header__photo {
+        border: 1px solid CanvasText;
+      }
     }
 
     /* Safari iOS fix — prevent text resize in landscape */
     @media screen and (orientation: landscape) and (max-height: 500px) {
       .hero {
+        min-height: auto;
         padding: 32px 0 40px;
       }
 
@@ -1213,6 +1452,7 @@
        CONTACT SECTION (US-9.1)
        ============================================ */
     .contact-wrapper {
+      --cyan: var(--cyan-dark);
       background-color: #eef2f6;
     }
 
@@ -1714,7 +1954,10 @@
   <header class="header">
     <div class="header__inner">
 
-      <a href="#" class="header__logo">Léa Macioszczyk · Freelance CRO</a>
+      <a href="#" class="header__logo">
+        <img src="lea.png" alt="Léa Macioszczyk" class="header__photo" width="34" height="34" loading="eager">
+        Léa Macioszczyk · Freelance CRO
+      </a>
 
       <nav class="header__nav">
         <a href="#a-propos">À propos</a>
@@ -1839,8 +2082,15 @@
         <div class="methode__content">
           <p class="section-label">— méthode</p>
           <h2 class="methode__title">Optimisation du taux de conversion : analyse, hypothèses, tests, <span class="highlight">résultats.</span></h2>
+          <p class="methode__badge">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Duo CRO + Développeur senior
+          </p>
           <p class="methode__intro">J'analyse vos données et les croise avec une analyse UX (expérience utilisateur) pour identifier précisément ce qui freine vos visiteurs.</p>
-          <p class="methode__intro">Pour les optimisations nécessitant du développement technique, je collabore avec un <span class="text-cyan">développeur senior ayant plus de 20 ans d'expérience</span> en architecture logicielle, développement web et formé aux dernières avancées de l'IA appliquée au code.</p>
+          <div class="methode__partner">
+            <svg class="methode__partner-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            <p class="methode__partner-text">Pour les optimisations nécessitant du développement technique, je collabore avec un <strong>développeur senior ayant plus de 20 ans d'expérience</strong> en architecture logicielle, développement web et formé aux dernières avancées de l'IA appliquée au code.</p>
+          </div>
         </div>
 
         <div class="methode__steps">
@@ -1920,7 +2170,11 @@
         </article>
 
         <!-- Carte 3 : OFFRE COMPLÉMENTAIRE -->
-        <article class="offres__card">
+        <article class="offres__card offres__card--partner">
+          <p class="offres__card-partner-badge">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Duo CRO + Dev senior
+          </p>
           <p class="offres__card-tag">Offre complémentaire</p>
           <p class="offres__card-duration">&nbsp;</p>
           <p class="offres__card-title">Exécution technique</p>
