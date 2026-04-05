@@ -173,3 +173,4 @@ C'est une bonne idée. Ajouter une mini photo dans le header est une pratique co
 - Lors des recherches google qu"elle est l'origine du petit logo (favicon ?) qui apparait à gauche du lien de la page de résulat. Dans le cas de la page actuelle seul un logo représentant un site web simple apparait. Que faut-il faire pour qu'apparaisse à la place la photo de Léa ? Merci de documenter ce qui doit être fait dans un fichier analyse/SEARCH-LOGO.md
 - Ok très bien j'ai compris. Ne modifions rien pour le moment
 - Lors d'un affichage sur mobile je trouve que la partie "Problème" (Titre: "La plupart des sites web ...") prend trop de place verticalement. Il ya beaucoup d'espace vide et je crains que le visiteur se décourage à scroller. Merci de corriger.
+- Dans la partie offre le titre "Execution technique" de la trosième carte est placée trop bas par rapport aux 2 autres. Merci d'optimiser l'effet visuel entre les 3 cartes
