@@ -6,7 +6,8 @@
       "Bash(ls \"C:/Users/2055392/OneDrive - Cognizant/Documents/Software/CRO-landing-page/lea-version/\"*.png)",
       "Bash(ls \"C:/Users/2055392/OneDrive - Cognizant/Documents/Software/CRO-landing-page/lea-version/favicon\"*)",
       "Bash(ls \"C:/Users/2055392/OneDrive - Cognizant/Documents/Software/CRO-landing-page/lea-version/\"*.ico)",
-      "Bash(ls \"C:/Users/2055392/OneDrive - Cognizant/Documents/Software/CRO-landing-page/lea-version/\"*.svg)"
+      "Bash(ls \"C:/Users/2055392/OneDrive - Cognizant/Documents/Software/CRO-landing-page/lea-version/\"*.svg)",
+      "WebSearch"
     ]
   }
 }
