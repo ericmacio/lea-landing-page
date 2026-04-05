@@ -33,4 +33,4 @@ Les éléments principaux (titres) utilisent la police "Instrument Serif". Les a
 La photo de la personne proposant cette offre est accessible dans le fichier lea.png
 
 ## Status
-la page index.html a été créée suivant les documents d'analyse DESIGN.md, US.md, REVIEW.md, GA.md et SEO.mmd. Celle-ci est désormais entièrement opérationnelle. Elle a aussi été améliorée suivant les recommandations décrite dans analyse/REVIEW-DESIGN.md. CEs fichiers servent de références quand à la struture et l'état de la page actuelle
+la page index.html a été créée suivant les documents d'analyse DESIGN.md, US.md, REVIEW.md, GA.md, SEO.md et REVIEW-DESIGN.md. Celle-ci est désormais entièrement opérationnelle. Elle a aussi été améliorée pour un impact visuel plus fort. Ces fichiers servent de références quand à la struture et l'état de la page actuelle. Le but maintenant est juste de procéder à auelques améliorations fonctionnelles ou visuelles.
