@@ -188,4 +188,6 @@ C'est une bonne idée. Ajouter une mini photo dans le header est une pratique co
 - MErci. Implémenter maintenant uniquement les recommendations 5.6, 5.7 (a, b, c uniquement). Mettre à jour le document GEO.md 
 - J'aimerai permettre un référencement efficace par rapport à ma localisation (Grenoble) même si mon travail peut très bien s'effectuer en remote. L'idée est de pouvoir toucher des acteurs locaux qui ferait des recherches du type 'Freelance CRO Grenoble" ou Freelance CRO Isere". Ne rien implémenter maintenant mais suggérer quelques améliorations dans ce sens et de les documenter dans un fichier analyse/REF-GRENOBLE.md
 - Très bien. Merci d'implémenter les actions 3.1, 3.2, 3.3 et 3.4. Mettre à jour le fichier REF-GRENOBLE.md
-- 
+- Peut-on améliorer le référencement sur des recherches du type "Audit CRO" ? Ne rien implémenter mais créer un fichier REF-AUDIT-CRO.md avec les suggestions
+- Merci pour le document. Ne rien implémenter pour le moment
+- Dans la section Offre remplacer "Audit opérationnel" par "Audit CRO"
