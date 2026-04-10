@@ -161,7 +161,7 @@ C'est une bonne idée. Ajouter une mini photo dans le header est une pratique co
 - Je trouve que la partie partenariat avec un developpeuur expert n'est pas assez mise en valeur car cela est ppour moi un vrai différentiateur. Que me proposes-tu pour rendre plus évident ce différentiateur ? Merci de compléter le document DESIGN-REVIEW avec tes suggestions
 - Très bien merci d'implémenter les éléments suggérés
 - C'est bien j'aime
-- J'ai oublié de te faire rajouté dans le document REVIEW-DESIGN les modifications apportées pour le rajout de la photo dans le header. Pourrais-tu le faire maintenant ?
+- J'ai oublié de te faire rajouter dans le document REVIEW-DESIGN les modifications apportées pour le rajout de la photo dans le header. Pourrais-tu le faire maintenant ?
 - Merci de t'assurer du respect des contraintes responsive (Epic 12) afin de garantir la multi compatibilité cross OS et cross browser. Effectuer les changements nécessaires
 - Il me semble que le la modification du fond cyan n'a pas été appliqué dans la partie frmulaire sur le texte "plus de résultats". Peux-tu vérifier ?
 - Je trouve le titre principale de la première zone un peu petit lorsqu'il est affiché sur un mobile. Est-il possible de l'agrandir ?
@@ -177,3 +177,15 @@ C'est une bonne idée. Ajouter une mini photo dans le header est une pratique co
 - Je pense qu'il est nécessaire de rajouter un lien linkedin pour lea. Son nom est "Léa Macioszczyk". Peut-tu connaitre son lien et le rajouter dans la zone "A propos" ?. N'implement rien pour le moment mais uniqmenet document dans le fichier analyse/LINKEDIN.md
 - Merci d'implémenter l'option 1 (option recommendée)
 - Je trouve la couleur de l'icône pas très respectueuse du logo LinkendIn. Merci de corriger
+- la page index.html a été créée suivant les documents stockés sous le répertoire analyse. Celle-ci est désormais entièrement opérationnelle. Je souhaite maintenanty procéder à son l'optimisation de son référencement par Google sur les mots clefs, CRO, optimisation site web, amélioration taux de conversion, test A/B ainsi que tout ce qui est en rapport avec l'activite. Pourrais tu élaborer une stratégie pemettant cette optimisation ainsi qu'identifier des modifications possibles de la page pour cela. Merci de no procéder à aucune modification mais de définir cette stratégie dans un ficher analyse/REF-GOOGLE.md
+- Merci de procéder à l'implémentation du point 3.1 (JSON-LD) et de mettre à jour le fichier REF-GOOGLE.md une fois effectuée
+- Ok. Mettre à jour le fichier REF-GOOGLE.md en précisant que l'inscription sur Google Search Console a été réalisée
+- Ma page LinkedIn n'étant pas jour je souhaite pour le moment retirer le lien Linked dans la section "A propos". Merci de s'assurer que le document analyse/LinkedIn.md contient toutes les informations pour ue re-implémentation plus tard.
+- Merci d'extraire les directives CSS du fichier index.html dans un fichier indépendant style.css afin d'alléger le fichier html et le rendre plus facilement visible
+- Peux tu m'expliquer comment optimiser ma page afin que celle-ci soit référencé plus efficacement par les outils d'IA générative comme Claude Gemini, Chat GPT etc ... Merci de noter tes suggestions dans un fichier  
+  analyse/GEO.md
+- MErci. Implémenter maintenant uniquement les recommendations 5.1, 5.2 et 5.3. Mettre à jour le document GEO.md
+- MErci. Implémenter maintenant uniquement les recommendations 5.6, 5.7 (a, b, c uniquement). Mettre à jour le document GEO.md 
+- J'aimerai permettre un référencement efficace par rapport à ma localisation (Grenoble) même si mon travail peut très bien s'effectuer en remote. L'idée est de pouvoir toucher des acteurs locaux qui ferait des recherches du type 'Freelance CRO Grenoble" ou Freelance CRO Isere". Ne rien implémenter maintenant mais suggérer quelques améliorations dans ce sens et de les documenter dans un fichier analyse/REF-GRENOBLE.md
+- Très bien. Merci d'implémenter les actions 3.1, 3.2, 3.3 et 3.4. Mettre à jour le fichier REF-GRENOBLE.md
+- 
